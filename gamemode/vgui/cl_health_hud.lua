@@ -20,6 +20,8 @@ end
 
 local bgcolor = Color(50, 50, 50, 255)
 function Hud(health)
+    if not MySelf then return end
+    
     local h = ScrH()
     local w = ScrW()
     local health = MySelf:Health()
