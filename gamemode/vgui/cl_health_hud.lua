@@ -12,9 +12,10 @@ local hud_elements = {
     ["CHudSecondaryAmmo"] = true,
 }
 
+local bgcoloroutline = Color(25, 25, 25, 200)
 local function drawBarNoRadius(x, y, w, h, red, green, blue, alpha, tw, th, text, font)
     draw_RoundedBox(0, x, y, w, h, Color(red, green, blue, alpha))
-    draw_SimpleTextOutlined(text, font, tw, th, Color( red, green, blue, 255), 0, 0, 1, Color(25, 25, 25, 200))
+    draw_SimpleTextOutlined(text, font, tw, th, Color( red, green, blue, 255), 0, 0, 1, bgcoloroutline)
 end
 
 local bgcolor = Color(50, 50, 50, 255)
