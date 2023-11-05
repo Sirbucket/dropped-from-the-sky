@@ -1,4 +1,4 @@
-GM.name = "Dungeons and Dragons"
+GM.name = "Dropped From The Sky"
 GM.Author = "Aralthus"
 GM.Email = "n/a"
 GM.Website = "n/a"
